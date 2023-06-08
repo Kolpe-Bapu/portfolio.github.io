@@ -1,0 +1,309 @@
+html, body { 
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+#dark{ 
+    background-color: black;
+}
+
+.name { 
+    color: crimson;
+}
+
+#navbar { 
+    z-index: 8;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-nav { 
+    margin-left: 500px;
+}
+
+#nav { 
+    margin: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+#nav:hover{ 
+    color: crimson;
+}
+
+#a { 
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3, p, h5, span, h6, h4 {
+    color: white;
+}
+
+#home { 
+    padding-top: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ami { 
+    color: crimson;
+}
+
+#bapu { 
+    height: 350px;
+    width: 350px;
+    transition: all ease 0.5s;
+}
+
+#bapu:hover { 
+    transform: scale(1.1);
+}
+
+#about {
+    text-align: justify; 
+    margin-top: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.cation h4 { 
+    text-align: center;
+    color: darkorange;
+    transition: all ease 0.3s;
+}
+
+.cation h4:hover { 
+    color: crimson;
+}
+
+.line { 
+    background-color: #fff;
+    border-radius: 20px;
+    width: 3px;
+    height: 100px;
+}
+
+.info { 
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.education { 
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#mark { 
+   background-color: #302f2f;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   padding-left: 10px;
+   padding-top: 10px;
+   transition: all ease 0.4s;
+   margin: 15px;
+}
+
+#mark:hover { 
+    transform: scale(0.9);
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+#servicess { 
+    text-align: center;
+    margin: 70px;
+    padding-top: 80px;
+}
+
+#card { 
+    text-align: justify;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.web { 
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+}
+
+.web:hover { 
+    transform: scale(1.1);
+    background-color: black;
+    box-shadow: 1px 1px 20px rgb(255, 0, 136);
+}
+
+.web h5 { 
+    text-align: center;
+}
+
+.button { 
+    margin-left: 80px;
+}
+
+#skills { 
+    text-align: center;
+    margin: 70px;
+    padding-top: 80px;
+}
+
+#ability { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img1 { 
+    height: 80px;
+    width: 80px;
+    margin: 50px;
+    transition: all 0.5s;
+}
+
+#img1:hover { 
+    transform: scale(1.2);
+}
+
+#skilltech { 
+    transition: all 0.5s;
+}
+
+#skilltech:hover { 
+    color: crimson;
+    transform: translateY(-10px);
+}
+
+#contact { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input[type=email], input[type=text]{ 
+    width: 400px;
+    margin: 10px;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+#textarea { 
+    width: 400px;
+    height: 180px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn { 
+    margin-left: 180px;
+}
+
+.cont { 
+    margin-top: 30px;
+}
+
+#cont { 
+    text-align: justify;
+}
+
+#img2 { 
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+#img2:hover { 
+    transform: translateY(-10px);
+}
+
+#copyright { 
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .navbar-nav { 
+        margin-left: 0;
+    }
+
+    #home { 
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #home .home { 
+        text-align: center;
+    }
+
+    #bapu { 
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    #about { 
+        text-align: center;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .cation h4 { 
+       margin: 40px;
+    }
+
+    #servicess { 
+        text-align: center;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    #card { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card { 
+        margin: 20px;
+    }
+
+    #skills { 
+        text-align: center;
+        margin: 40px;
+        padding-top: 0;
+    }
+
+    #ability { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #contact { 
+        display: flex;
+        flex-direction: column;
+    }
+}
